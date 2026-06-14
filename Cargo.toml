@@ -1,0 +1,29 @@
+[package]
+name = "ip-api-io"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.75"
+description = "Official Rust client for ip-api.io — IP geolocation, email validation, fraud detection and risk scoring API"
+license = "MIT"
+homepage = "https://ip-api.io"
+repository = "https://github.com/ip-api-io/ipapi-rust"
+documentation = "https://docs.rs/ip-api-io"
+readme = "README.md"
+keywords = ["geolocation", "geoip", "email-validation", "fraud-detection", "ip"]
+categories = ["api-bindings", "web-programming"]
+
+[features]
+default = []
+blocking = ["reqwest/blocking"]
+
+[dependencies]
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+httpmock = "0.7"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+
+[package.metadata.docs.rs]
+all-features = true
