@@ -111,3 +111,4 @@ for record in &mx.mx_records {
 - [Email validation & verification](email-validation.md) — MX records feed deliverability
 - [Domain age checker](domain-age.md) — registration age from WHOIS data
 - Product pages: [ASN lookup](https://ip-api.io/asn-lookup) · [WHOIS lookup](https://ip-api.io/whois-lookup) · [Reverse DNS](https://ip-api.io/reverse-dns-lookup) · [MX record lookup](https://ip-api.io/mx-record-lookup)
+- [Full tutorial on ip-api.io](https://ip-api.io/docs/sdk/rust/asn-dns)

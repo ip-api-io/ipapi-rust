@@ -65,3 +65,4 @@ for (domain, age) in &batch.results {
 - [ASN & DNS lookups](asn-and-dns.md) — `whois` for the full registration record
 - [Fraud detection & risk scoring](fraud-risk-scoring.md) — combine age with other signals
 - Product page: [Domain age checker](https://ip-api.io/domain-age-checker)
+- [Full tutorial on ip-api.io](https://ip-api.io/docs/sdk/rust/domain-age)

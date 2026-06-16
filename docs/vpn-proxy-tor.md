@@ -79,3 +79,4 @@ println!("{}", tor.tor_node_count);  // number of matching Tor nodes
 - [IP geolocation & bulk lookup](ip-geolocation.md) — where `suspicious_factors` comes from
 - [Fraud detection & risk scoring](fraud-risk-scoring.md) — combine the flags into a score
 - Product pages: [VPN detection](https://ip-api.io/vpn-detection-api) · [Proxy detection](https://ip-api.io/proxy-detection-api) · [Tor detection](https://ip-api.io/tor-detection)
+- [Full tutorial on ip-api.io](https://ip-api.io/docs/sdk/rust/vpn-proxy-tor)
